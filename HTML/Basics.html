@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>WebPage Title</title>
+    </head>
+    <style>
+        a:link{
+            color: blue;
+        }
+        a :visited{
+            color: aqua;
+        }
+        a :hover{
+            color: brown;
+        }
+        a:active{
+            color: yellow;
+        }
+        div:hover{
+            color: coral;
+        }
+        p :hover{
+            background-color: aqua;
+        }
+        p::first-letter{
+            color: red;
+        }
+        div p ::before{
+            color:red;
+        }
+        .img1{
+            background-image: url("https://images-na.ssl-images-amazon.com/images/I/71zNWbTHzxL._SX679_.jpg");
+            background-position: center;
+            height: 200px;
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .span-class{
+            color: red;
+        }
+    </style>
+    <body>
+        <h1>Welcome to HTML</h1>
+        <h6>Paragraph</h6>
+        <p><b>Lorem Ipsum </b>is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown 
+            printer took a galley <i>of type and scrambled it</i> to make a type specimen book
+        </p>
+        <a href="#nextsection">ClickforNextSection</a>
+        <h4>Anchor Tag</h4>
+        <a href="Html2.html">Next Page</a>
+        <h6>Unordered List</h6>
+        <ul>
+            <li>oranges</li>
+            <li>guavas</li>
+            <li>grapes</li>
+            <li>strawberry</li>
+        </ul>
+        <h6>Ordered List</h6>
+        <ol>
+            <li>carrots</li>
+            <li>sprouts</li>
+            <li>brinjals</li>
+            <li>tomatoes</li>
+        </ol>
+        <h5>blockquote</h5>
+        <blockquote cite="https://www.lipsum.com/">
+            It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets 
+            containing Lorem Ipsum passages
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </blockquote>
+        <hr>
+        <h4>Image in local system</h4>
+        <img src="C:/Users/bindu/Desktop/cake.jpg" height="200px" width="200px">
+        <h4>Image in global</h4>
+        <div class="img1">
+
+        </div>
+
+        <h5>Pseudo Classes and elements applied to anchor tags and paragraphs</h5>
+        
+
+        <a href="Html2.html">Next Page</a>
+        
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged.<span style="border : 1px solid red"> It was popularised in the 1960s with the release of Letraset sheets 
+            containing Lorem Ipsum passages</span>
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+        <h4>Label</h4>
+        <label for="firstname">   Firstname   </label>   
+            <input type="text" id="firstname" name="ftname" placeholder= "Firstname" size="15" required /> 
+        <h2 id="nextsection">Section2</h2>
+        <p>
+            In my younger and more vulnerable years my father gave me some advice that
+             I've been turning over in my mind ever since.
+        </p>
+        <div>
+            <p>"Whenever you feel like criticizing any one," he told me, 
+            "just remember that all the people in this world haven't had the advantages that you've had."</p>
+        </div>
+
+    </body>
+</html>
