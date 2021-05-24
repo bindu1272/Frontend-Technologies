@@ -1,1 +1,4 @@
-# Frontend-Technologies
+# Frontend-Technologies 
+# HTML
+# CSS
+# Java Script
