@@ -1,7 +1,84 @@
 <html>
-    <head>hi</head>
+    <head></head>
     <body>
-        hi
+        <form id="formId" name="registerForm" method="POST" >
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="details">
+                    <label for="name">Enter Name</label>
+                    <input type="text" name="name" placeholder="Enter Name.."  >
+                </div>
+                <div class="details">
+                    <label for="age">Enter age</label>
+                    <input type="number" name="age"  >
+                    <label for="points">Points (between 0 and 10):</label>
+                    <input type="range" id="points" name="points" min="0" max="10">
+                </div>
+                <div class="details">
+                    <label for="passwd">Enter Password</label>
+                    <input type="password" name="passwd" placeholder="Enter Password" maxlength="8" size="4" required>
+                </div>
+                <div>
+                    <input type= "date">
+                </div>
+                <div>
+                    <input type="file">
+                </div>
+                <div>
+                    <input type = "time">
+                </div>
+                <div>
+                    <input type="month">
+                </div>
+                <div>
+                    <input type="week" readonly>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name ="email" disabled>
+                </div>
+                <div class="details">
+                    <div><label>Gender</label></div>
+                    <label for="female">Male</label>
+                    <input type="radio" name="gender" value="male"  >
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="female"  >
+                </div>
+                <h1>IFrame Example</h1>
+                <iframe src="Basics.html" height="300px" width="300px"></iframe>
+                <div class="details">
+                    <div> <label for="subjects">Your Favourite Subjects</label></div>
+                    <label for="maths">Maths</label>
+                    <input type="checkbox" name="subjects" value="maths" >
+                    <label for="science">Science</label>
+                    <input type="checkbox" name="subjects" value="science" >
+                    <label for="social">social</label>
+                    <input type="checkbox" name="subjects" value="social" >
+                    <label for="english">English</label>
+                    <input type="checkbox" name="subjects" value="english" >
+                </div>
+                <div class="details">
+                    <div><label for="color">Your Favourite color</label></div>
+                    <input type="color">
+                </div>
+                <div class="details">
+                    <div><label for="address">Address</label></div>
+                    <textarea name="address" rows="8" cols="15" ></textarea>
+                </div>
+                <div class="details">
+                    <input id="submit" type="submit" value="submit">
+                    <input type="reset" name="reset"> 
+                    <button name="refresh" id="refresh">Reload</button>
+                </div>
+                <div>
+                    <a href="Basics.html" target="_blank"></a>
+                    <a href="Html3.html" target="_self"></a>
+                </div>
+                <div>
+                    <marquee>this is the simple example for marquee <marquee behavior="scroll" direction="up"></marquee></marquee>
+                </div>
+            </fieldset>
+        </form>
     </body>
     
 </html>

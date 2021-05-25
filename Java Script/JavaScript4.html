@@ -1,0 +1,19 @@
+<html>
+    <head></head>
+    <body>
+        <p id="basic"></p>
+        <p id="basics"></p>
+    </body>
+    <script>
+        var person = {
+            firstName : "bindu",
+            lastName : "Vankayalapati",
+            get fullName(){
+                return this.firstName + " "+ this.lastName;
+            }
+        };
+        document.getElementById("basic").innerHTML = person.firstName + person.lastName;
+        document.getElementById("basics").innerHTML= person.fullName;
+
+    </script>
+</html>

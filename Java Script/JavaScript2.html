@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <titile>JavaScript Task</titile>
+    </head>
+    <body>
+        <P>It will sorts the fruits array while clicking the button</P>
+        <button onclick="myFunction()">Sort</button>        
+        <p id="basics"></p>
+        <script>
+            var fruits = ["mango","apple","banana","oranges","papaya"];
+            document.getElementById("basics").innerHTML = fruits;
+            function myFunction(){
+                fruits.sort();
+                fruits.reverse();
+                document.getElementById("basics").innerHTML = fruits;
+            }
+        </script>
+    </body>
+</html>
