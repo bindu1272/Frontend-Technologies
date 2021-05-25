@@ -1,0 +1,30 @@
+<html>
+    <head></head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            //Apply method in javascript
+            // var person ={
+            //     fullName : function(city,country){
+            //         document.getElementById("demo").innerHTML= this.firstName + " "+this.lastName + " "+ city+ " "+ country;
+            //     }
+            // }
+            // var person1 = {
+            //     firstName : "bindu",
+            //     lastName : "vankayalapati"
+            // }
+            // person.fullName.apply(person1,["banglore","india"]);
+            //Call method in javascript
+            var person2 = {
+                fullName : function(city,country){
+                    document.getElementById("demo1").innerHTML = this.firstName + " "+ city+ " "+ country;
+                }
+            }
+            var person3 ={
+                firstName : "bindu"
+            }
+            person2.fullName.call(person3,"banglore","India");
+        </script>
+    </body>
+</html>
