@@ -1,0 +1,86 @@
+body{
+    font-size: 20px;
+    line-height: 40px;
+}
+table, td, th {
+    border: 1px solid black;
+} 
+table {
+    width: 40%;
+    border-collapse: collapse;
+}
+table:hover body{
+    background-color: #ff6200;
+    color: #ffffff;
+}
+.content{
+    visibility: hidden;
+}
+.content1{
+    visibility: visible;
+}
+.content2{
+    visibility: collapse;
+}
+.section .section1{
+    display: inline;
+}
+.section .section2{
+    display: none;
+}
+.section .section3{
+    display: contents;
+}
+.fake-list {
+    display: list-item;
+    list-style-position: inside;
+}
+.scroll{
+    position: fixed;
+    top:50%;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: #000;
+    text-align: center;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.scroll.top{
+    top: calc(50% - 80px);
+    background: #44e839;
+}
+.scroll.bottom{
+    top: calc(50% - 0px);
+    background: #f53d68;
+} 
+a{
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+td{
+    padding: 12px;
+}
+table{
+    margin: 16px;
+}
+.image1{
+    background-image: url("https://online.crbtech.in/wp-content/uploads/2019/03/Java-1.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+.image2{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

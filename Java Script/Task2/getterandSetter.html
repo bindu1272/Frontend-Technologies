@@ -1,6 +1,13 @@
 <html>
     <head></head>
     <body>
-        
+        <p id="demo"></p>
+        <button onclick="myFunction()">counter</button>
+        <script>
+            var count = 0;
+            function myFunction(){
+                document.getElementById("demo").innerHTML = count;
+            }
+        </script>
     </body>
 </html>
