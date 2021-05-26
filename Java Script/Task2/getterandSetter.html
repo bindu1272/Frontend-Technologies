@@ -1,12 +1,19 @@
 <html>
     <head></head>
     <body>
-        <p id="demo"></p>
+        <div>Count :<span id="demo"> 0 </span></div>
         <button onclick="myFunction()">counter</button>
         <script>
             var count = 0;
             function myFunction(){
-                document.getElementById("demo").innerHTML = count;
+                setCount(count);
+                document.getElementById("demo").innerHTML = getCount();
+            }
+            function getCount(){
+                return count;
+            }
+            function setCount(count){
+                this.count++;
             }
         </script>
     </body>
